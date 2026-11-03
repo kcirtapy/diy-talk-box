@@ -18,8 +18,7 @@ The amp drives a compression driver, but instead of a horn the driver's output g
 | --- | --- | --- |
 | Compression driver | [Sound Town MHF-014](https://www.soundtown.com/products/mhf-014) | 1" PA tweeter driver: 8 Ω, 50 W RMS, 110 dB at 1 W/1 m, standard 1-3/8"-18 screw-on throat. Horn removed. |
 | Capacitor | 33 µF, 100 V, non-polarized electrolytic | Must be non-polarized (marked NP or BP). Sold as tweeter crossover capacitors. |
-| Amplifier | Small desktop speaker amp | Needs speaker terminals. Headphone and line outputs are too weak to drive the driver. |
-| Audio interface | Arturia MiniFuse 1 | Line out feeds the amp; the mic input records the talk box. |
+| Amplifier | Small desktop speaker amp | Takes audio from the computer over USB or aux. Needs speaker terminals: headphone and line outputs are too weak to drive the driver. |
 | Tube | Replacement tube for the MXR M222 talk box | The genuine Dunlop ECB303 is 6.5 ft with a 0.58" tube and 0.795" coupler. Clones vary, so measure yours. |
 | Adapter | 3D printed, see [`adapter/`](adapter/) | Screws onto the driver and steps the 1" throat down to the tube. |
 | Also | Speaker wire, solder, heat shrink, a vocal mic and stand | |
@@ -84,7 +83,7 @@ Printed plastic isn't food safe, so the tube should be the only thing that touch
 ## Playing it
 
 1. Turn the amp all the way down before connecting anything.
-2. In the DAW, route only the synth to the MiniFuse output that feeds the amp, and monitor on headphones. Anything else on that output (click, drums) goes up the tube and into the mic.
+2. Only the synth should play through the amp. Anything else on that output (click, drums) goes up the tube and into the mic, so mute it or send it somewhere else.
 3. Play a sustained, bright note and bring the volume up slowly with the tube pointed away from your face.
 4. Put the tube about 1/2" to 1" into your mouth, right next to the vocal mic, and mouth the words without using your voice.
 
